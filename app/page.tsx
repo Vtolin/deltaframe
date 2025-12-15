@@ -56,7 +56,7 @@ export default function Home() {
               <source src="/hero-video.mp4" type="video/mp4" />
             </video>
             {/* Fixed Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60"></div>
+            <div className="absolute inset-0 bg-linear-to-b from-black/40 via-black/20 to-black/60"></div>
           </div>
           
           {/* Hero Content */}
@@ -82,11 +82,11 @@ export default function Home() {
               </Animated>
               <Animated animation="fade-in" delay={800}>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
-                  <button className="group relative overflow-hidden bg-white text-black px-6 sm:px-8 py-3 sm:py-4 text-sm font-medium tracking-wider uppercase transition-all duration-300 hover:-translate-y-0.5 sm:hover:-translate-y-1 hover:shadow-xl min-h-[44px]">
+                  <button className="group relative overflow-hidden bg-white text-black px-6 sm:px-8 py-3 sm:py-4 text-sm font-medium tracking-wider uppercase transition-all duration-300 hover:-translate-y-0.5 sm:hover:-translate-y-1 hover:shadow-xl min-h-11">
                     <span className="relative z-10">View Portfolio</span>
                     <span className="absolute inset-0 bg-black/10 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                   </button>
-                  <button className="group border-2 border-white text-white px-6 sm:px-8 py-3 sm:py-4 text-sm font-medium tracking-wider uppercase transition-all duration-300 hover:bg-white hover:text-black hover:-translate-y-0.5 sm:hover:-translate-y-1 min-h-[44px]">
+                  <button className="group border-2 border-white text-white px-6 sm:px-8 py-3 sm:py-4 text-sm font-medium tracking-wider uppercase transition-all duration-300 hover:bg-white hover:text-black hover:-translate-y-0.5 sm:hover:-translate-y-1 min-h-11">
                     Get In Touch
                   </button>
                 </div>
@@ -149,7 +149,7 @@ export default function Home() {
             
             <Animated animation="fade-left" delay={300} className="order-1 md:order-2">
               <div className="relative group">
-                <div className="relative aspect-[4/5] max-w-md mx-auto md:max-w-none">
+                <div className="relative aspect-4/5 max-w-md mx-auto md:max-w-none">
                   <Image
                     src="/about.jpg"
                     alt="Our Story - Professional photography team at work"
@@ -237,7 +237,7 @@ export default function Home() {
 
             <Animated animation="fade-up" delay={800}>
               <div className="text-center mt-12 md:mt-16">
-                <button className="bg-gray-900 text-white px-8 md:px-10 py-3 md:py-4 text-sm font-medium tracking-wider uppercase transition-all duration-300 hover:bg-gray-800 hover:-translate-y-0.5 md:hover:-translate-y-1 hover:shadow-lg min-h-[44px]">
+                <button className="bg-gray-900 text-white px-8 md:px-10 py-3 md:py-4 text-sm font-medium tracking-wider uppercase transition-all duration-300 hover:bg-gray-800 hover:-translate-y-0.5 md:hover:-translate-y-1 hover:shadow-lg min-h-11">
                   View All Packages
                 </button>
               </div>
@@ -272,7 +272,7 @@ export default function Home() {
                   <div className="group relative overflow-hidden rounded-xl cursor-pointer">
                     <div className={`${item.height} bg-gray-200 relative overflow-hidden`}>
                       {/* Replace with actual images */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-10"></div>
+                      <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent z-10"></div>
                       <div className="absolute inset-0 transform transition-transform duration-500 group-hover:scale-110">
                         {/* <Image src={`/portfolio-${index}.jpg`} alt={item.title} fill className="object-cover" /> */}
                       </div>
@@ -317,7 +317,7 @@ export default function Home() {
               </p>
             </Animated>
             <Animated animation="fade-up" delay={400}>
-              <button className="bg-white text-gray-900 px-8 md:px-10 py-3 md:py-4 text-sm font-medium tracking-wider uppercase transition-all duration-300 hover:bg-gray-100 hover:-translate-y-0.5 md:hover:-translate-y-1 hover:shadow-xl min-h-[44px]">
+              <button className="bg-white text-gray-900 px-8 md:px-10 py-3 md:py-4 text-sm font-medium tracking-wider uppercase transition-all duration-300 hover:bg-gray-100 hover:-translate-y-0.5 md:hover:-translate-y-1 hover:shadow-xl min-h-11">
                 View Pricing
               </button>
             </Animated>
