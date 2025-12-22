@@ -16,7 +16,6 @@ export default function Taskbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Close menu on route change
   useEffect(() => {
     setIsMenuOpen(false);
   }, [pathname]);
@@ -27,8 +26,6 @@ export default function Taskbar() {
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/portfolio", label: "Portfolio" },
-    { href: "/services", label: "Services" },
-    { href: "/investment", label: "Investment" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -38,8 +35,8 @@ export default function Taskbar() {
       <nav
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-out backdrop-blur-lg
         ${isScrolled 
-          ? "bg-white/98 border-b border-gray-200 shadow-sm py-3" 
-          : "bg-white/90 border-b border-gray-900/20 py-4 md:py-5"
+          ? "bg-white/98 border-b border-gray-200 shadow-sm py-1" 
+          : "bg-white/90 border-b border-gray-900/20 py-4 md:py-2"
         }`}
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
@@ -50,10 +47,12 @@ export default function Taskbar() {
             ${isScrolled ? "text-xl" : "text-2xl"}`}
           >
             <Image
-              src="/logo.png"
+              src="/ogo.png"
               alt="Logo"
               width={50}
               height={50}
+              loading="eager"
+              priority
             />
           </Link>
 

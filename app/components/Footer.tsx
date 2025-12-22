@@ -1,3 +1,4 @@
+import Link from "next/link";
 import useInView from "../hooks/useInView";
 
 export default function Footer() {
@@ -50,12 +51,12 @@ export default function Footer() {
 
     <Animated animation="fade-up" delay={200}>
       <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
-        <button className="border border-white px-8 py-3 text-sm uppercase tracking-wider transition hover:bg-white hover:text-gray-900">
+        <Link href="/contact" className="cursor-pointer border border-white px-8 py-3 text-sm uppercase tracking-wider transition hover:bg-white hover:text-gray-900">
           Hubungi Kami
-        </button>
-        <button className="border border-white/40 px-8 py-3 text-sm uppercase tracking-wider text-gray-300 transition hover:border-white hover:text-white">
+        </Link>
+        <Link href="/portfolio" className="cursor-pointer border border-white/40 px-8 py-3 text-sm uppercase tracking-wider text-gray-300 transition hover:border-white hover:text-white">
           Lihat Portofolio
-        </button>
+        </Link>
       </div>
     </Animated>
 
