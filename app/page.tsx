@@ -310,9 +310,9 @@ export default function Home() {
                         {service.price}
                       </p>
                     </div>
-                    <button className="text-sm font-medium text-gray-900 pb-1 border-b-2 border-gray-900 transition-all duration-300 group-hover:text-gray-600 group-hover:border-gray-600">
+                    {/* <button className="text-sm font-medium text-gray-900 pb-1 border-b-2 border-gray-900 transition-all duration-300 group-hover:text-gray-600 group-hover:border-gray-600">
                       Learn More
-                    </button>
+                    </button> */}
                   </div>
                 </Animated>
               ))}
