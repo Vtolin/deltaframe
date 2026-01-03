@@ -45,7 +45,7 @@ export default function AboutPage() {
     <Taskbar />
     <main className="font-sans antialiased">
       {/* 1. Minimal Hero / Intro (No Image) */}
-      <section className="relative py-32 md:py-40 lg:py-48 bg-white h-screen min-h-[500px] flex items-center">
+      <section className="relative py-32 md:py-40 lg:py-48 bg-white h-screen min-h-[500px] max-h-[1600px] flex items-center">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <Animated animation="fade-in">
             <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl text-gray-900 mb-6">

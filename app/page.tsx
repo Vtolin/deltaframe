@@ -166,7 +166,7 @@ export default function Home() {
 
               <Animated animation="fade-up" delay={200}>
                 <p className="text-gray-600 leading-relaxed text-lg mb-6">
-                  Kami adalah studio fotografi dan videografi butik yang
+                  Kami adalah studio fotografi dan videografi yang
                   berfokus pada pengabadian momen-momen berharga. Mulai dari
                   pernikahan intim hingga acara motorsport komersial, kami
                   memadukan keahlian teknis dengan visi artistik.
@@ -270,7 +270,7 @@ export default function Home() {
                 {
                   title: "Liputan Motorsport",
                   desc: "Liputan profesional terfokus untuk event balap & otomotif (Sudah Termasuk Editing)",
-                  price: "Mulai dari Rp1,800,000",
+                  price: "Mulai dari Rp1,700,000",
                 },
                 {
                   title: "Editing",
