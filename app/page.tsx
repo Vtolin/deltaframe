@@ -250,32 +250,32 @@ export default function Home() {
                 {
                   title: "Fotografi Pernikahan",
                   desc: "Foto romantis, natural, dan timeless untuk hari istimewa Anda (Sudah Termasuk Editing)",
-                  price: "Mulai dari Rp750,000",
+                  price: "Contact for price",
                 },
                 {
                   title: "Videografi",
                   desc: "Film sinematik yang menghidupkan momen (Sudah Termasuk Editing)",
-                  price: "Mulai dari Rp1,000,000",
+                  price: "Contact for price",
                 },
                 {
                   title: "Sesi Potret",
                   desc: "Branding pribadi, keluarga, dan lifestyle (Sudah Termasuk Editing)",
-                  price: "Mulai dari Rp425,000",
+                  price: "Contact for price",
                 },
                 {
                   title: "Acara & Event",
                   desc: "Acara selebrasi dan perayaan spesial (Sudah Termasuk Editing)",
-                  price: "Mulai dari Rp900,000",
+                  price: "Contact for price",
                 },
                 {
                   title: "Liputan Motorsport",
                   desc: "Liputan profesional terfokus untuk event balap & otomotif (Sudah Termasuk Editing)",
-                  price: "Mulai dari Rp1,700,000",
+                  price: "Contact for price",
                 },
                 {
                   title: "Editing",
                   desc: "Layanan Retouching & color grading profesional",
-                  price: "Mulai dari Rp75,000",
+                  price: "Contact for price",
                 },
               ].map((service, index) => (
                 <Animated
